@@ -18,7 +18,7 @@ public class ReadFile {
 		int value = 0;
 		list = new LinkedList<>();
 		try {
-			File filename = new File("./src/bd.txt");
+			File filename = new File("./src/RunApplication/bd.txt");
 			if(filename.canRead()) {
 				scFileName = new Scanner(filename);
 
